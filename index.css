@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 body{
     background-color:hsl(210, 46%, 95%) ;
+    width: 80%;
 }
 main{
     font-size: 13px;
@@ -60,8 +61,11 @@ img{
 }
 
 @media (min-width:600px) {
+    body{
+        margin-top: 2.5rem;
+        margin-left: 8rem;
+    }
     main{
-        margin-top:4rem;
         justify-content: center;
         grid-template-columns: 1fr 1fr 1fr 1fr ;
         grid-template-rows: 1fr 1fr;
